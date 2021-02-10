@@ -1,4 +1,4 @@
-#+TITLE: Redis in docker
+#+TITLE: Running Redis in docker
 #+PROPERTY: header-args :session *shell docker* :results silent raw
 
 ** Contents                                                           :TOC_3:
