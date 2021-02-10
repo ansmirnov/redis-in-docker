@@ -1,2 +1,12 @@
 #+TITLE: Redis in docker
 #+PROPERTY: header-args :session *shell docker* :results silent raw
+
+** Contents                                                           :TOC_3:
+  - [[#select-docker-image-version][Select docker image version]]
+** Select docker image version
+
+#+BEGIN_SRC sh
+IMAGE="redis"
+TAG="6.0.10-buster"
+#+END_SRC
+
