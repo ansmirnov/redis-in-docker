@@ -4,6 +4,7 @@
 ** Contents                                                           :TOC_3:
   - [[#select-docker-image-version][Select docker image version]]
   - [[#pull-docker-image][Pull docker image]]
+  - [[#run-redis][Run redis]]
 ** Select docker image version
 
 #+BEGIN_SRC sh
@@ -15,5 +16,11 @@ TAG="6.0.10-buster"
 
 #+BEGIN_SRC sh
 docker pull $IMAGE:$TAG
+#+END_SRC
+
+** Run redis
+
+#+BEGIN_SRC sh
+docker run -d --net host --name redis $IMAGE:$TAG redis-server --bind 127.0.0.1
 #+END_SRC
 
