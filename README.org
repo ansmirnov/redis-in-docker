@@ -7,6 +7,7 @@
   - [[#run-redis][Run redis]]
   - [[#inspect-the-container][Inspect the container]]
   - [[#kill-the-container][Kill the container]]
+  - [[#remove-the-container][Remove the container]]
 ** Select docker image version
 
 #+BEGIN_SRC sh
@@ -36,5 +37,11 @@ docker inspect redis
 
 #+BEGIN_SRC sh
 docker kill redis
+#+END_SRC
+
+** Remove the container
+
+#+BEGIN_SRC sh
+docker rm redis
 #+END_SRC
 
