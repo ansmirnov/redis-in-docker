@@ -3,10 +3,17 @@
 
 ** Contents                                                           :TOC_3:
   - [[#select-docker-image-version][Select docker image version]]
+  - [[#pull-docker-image][Pull docker image]]
 ** Select docker image version
 
 #+BEGIN_SRC sh
 IMAGE="redis"
 TAG="6.0.10-buster"
+#+END_SRC
+
+** Pull docker image
+
+#+BEGIN_SRC sh
+docker pull $IMAGE:$TAG
 #+END_SRC
 
