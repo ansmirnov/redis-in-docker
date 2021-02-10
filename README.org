@@ -49,4 +49,4 @@ docker rm redis
 
 ** References
 
-1. https://hub.docker.com/_/golang/
+1. https://hub.docker.com/_/redis/
