@@ -8,6 +8,8 @@
   - [[#inspect-the-container][Inspect the container]]
   - [[#kill-the-container][Kill the container]]
   - [[#remove-the-container][Remove the container]]
+  - [[#references][References]]
+
 ** Select docker image version
 
 #+BEGIN_SRC sh
@@ -45,3 +47,6 @@ docker kill redis
 docker rm redis
 #+END_SRC
 
+** References
+
+1. https://hub.docker.com/_/golang/
